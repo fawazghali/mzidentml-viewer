@@ -3,7 +3,7 @@ package uk.ac.liv.proteoidviewer;
 
 /**
  *
- * @author Fawaz Ghali
+ *  @author Fawaz Ghali
  */
 public class ProteoIDViewerCLI {
     private  String mzidFile;
