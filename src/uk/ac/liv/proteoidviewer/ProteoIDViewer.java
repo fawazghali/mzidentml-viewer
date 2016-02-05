@@ -3477,11 +3477,12 @@ public class ProteoIDViewer extends javax.swing.JFrame {
                         if (proteinDetectionHypothesis.getPeptideHypothesis() != null) {
                             number_peptide = String.valueOf(proteinDetectionHypothesis.getPeptideHypothesis().size());
                         }
-
+                        
+                   
                         ((DefaultTableModel) proteinDetectionHypothesisTable.getModel()).addRow(new Object[]{
                             proteinDetectionHypothesis.getId(),
                             dBSequenceAccession,
-                            roundTwoDecimals(Double.valueOf(score).doubleValue()),
+                            score,
                             "",
                             Integer.valueOf(number_peptide),
                             isDecoy,
